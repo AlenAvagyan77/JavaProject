@@ -1,4 +1,4 @@
-package Tests.OOP.Abstraction;
+package Tests.OOP.AbstractionAndPolymorphism;
 
 public abstract class Animal {
     abstract void sound();

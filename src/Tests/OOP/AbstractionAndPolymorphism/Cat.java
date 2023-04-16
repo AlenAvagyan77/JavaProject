@@ -1,4 +1,4 @@
-package Tests.OOP.Abstraction;
+package Tests.OOP.AbstractionAndPolymorphism;
 
 public class Cat extends Animal{
     @Override
