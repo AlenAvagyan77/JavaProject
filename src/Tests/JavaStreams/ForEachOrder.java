@@ -7,8 +7,8 @@ public class ForEachOrder {
     public static void main(String[] args) {
         /*
         forEachOrdered() is another method in the Java Stream API that is similar to forEach(),
-         but guarantees that the elements in the stream will be processed in the order they appear
-         */
+        but guarantees that the elements in the stream will be processed in the order they appear
+        */
         List<String> words = Arrays.asList("hello", "world", "java", "streams");
         System.out.print("Using forEachOrdered(): ");
         words.stream()
