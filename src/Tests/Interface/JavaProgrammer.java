@@ -8,7 +8,7 @@ public class JavaProgrammer implements Programmer{
     }
 
     @Override
-    public void rewiev() {
+    public void review() {
         System.out.println("Reviewing java code");
 
     }
