@@ -3,6 +3,6 @@ package Tests.Interface;
 public interface Programmer {
     String COUNTRY = "ARMENIA";
     void writeCode();
-    void rewiev();
+    void review();
     void languages(String lName);
 }
