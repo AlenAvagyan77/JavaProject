@@ -6,6 +6,8 @@ public class Test {
         jp.languages(", JavaScript");
         jp.review();
         jp.writeCode();
+        jp.interests("Fishing");
+        System.out.println(Programmer.COUNTRY);
         System.out.println("---------------");
         CSharpProgrammer cSharpProgrammer = new CSharpProgrammer();
         cSharpProgrammer.writeCode();
