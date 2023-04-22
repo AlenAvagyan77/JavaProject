@@ -6,6 +6,7 @@ public class Test {
         jp.languages(", JavaScript");
         jp.rewiev();
         jp.writeCode();
+        System.out.println(Programmer.COUNTRY);
         System.out.println("---------------");
         CSharpProgrammer cSharpProgrammer = new CSharpProgrammer();
         cSharpProgrammer.writeCode();
