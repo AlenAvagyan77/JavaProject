@@ -21,6 +21,6 @@ public class JavaProgrammer implements Programmer{
 
     @Override
     public void show() {
-        Programmer.super.show();
+        System.out.println("Using default method from interface for JavaProgrammer");
     }
 }
