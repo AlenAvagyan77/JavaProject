@@ -19,4 +19,8 @@ public class CSharpProgrammer implements Programmer{
 
     }
 
+    @Override
+    public void show() {
+        System.out.println("Using default method from interface for CSharpProgrammer ");
+    }
 }

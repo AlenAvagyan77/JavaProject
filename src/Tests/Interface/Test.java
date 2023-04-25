@@ -6,13 +6,17 @@ public class Test {
         jp.languages(", JavaScript");
         jp.review();
         jp.writeCode();
-        jp.interests("Fishing");
+        jp.show();
+        // The static method is bound in the interface and can call only class dot name.
+        Programmer.display();
         System.out.println(Programmer.COUNTRY);
         System.out.println("---------------");
         CSharpProgrammer cSharpProgrammer = new CSharpProgrammer();
         cSharpProgrammer.writeCode();
         cSharpProgrammer.review();
         cSharpProgrammer.languages(", Node.JS");
+        jp.show();
+        Programmer.display();
 
     }
 }

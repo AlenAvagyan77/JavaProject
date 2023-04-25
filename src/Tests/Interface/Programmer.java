@@ -5,7 +5,10 @@ public interface Programmer {
     void writeCode();
     void review();
     void languages(String lName);
-    default void interests(String interests) {
-        System.out.println("I am interests by " + interests);
+    default void show() {
+        System.out.println("Called a default method for an interface");
+    }
+    static void display() {
+        System.out.println("Called a static method for an interface");
     }
 }

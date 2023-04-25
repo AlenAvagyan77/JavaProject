@@ -18,4 +18,9 @@ public class JavaProgrammer implements Programmer{
         System.out.println("Java, C++" + lName);
 
     }
+
+    @Override
+    public void show() {
+        System.out.println("Using default method from interface for JavaProgrammer");
+    }
 }
